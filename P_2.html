@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>OS Installation</title>
+    <style>
+        nav {
+            margin: 0;
+           padding: 0;
+            text-decoration: none;
+            border: 1px solid gray;
+            position: absolute;
+            width: 100%;
+            background-color: white;
+            overflow: hidden;
+           /* display: flex;
+            align-items: center;
+            padding: 10px 20px;*/
+        }
+
+            nav a {
+                text-decoration: none;
+                text-align: right:;
+                border: none;
+                float: right;
+                overflow: hidden;
+                display: block;
+                color: black;
+                padding: 20px 50px 20px 70px;
+               /* font-size: 15px;
+                margin: 0 0px;
+                position: relative;
+                transition: color 0.5s ease; /* Smooth color transition */
+            }
+                nav a:hover {
+                    background-color: white; /*bg color*/
+                    color: dodgerblue   ; /*text*/
+                }
+        .logo {
+            width: 60px; /* Adjust this to control the size of the logo */
+            height: 60px; /* Maintain the aspect ratio */
+            margin-right: 1300px; /* Optional: Add spacing between the logo and nav items */
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light gray background */
+
+
+            text-align: center;
+        }
+        .sheet {
+            background-color: white; /* White background for the sheet */
+            width: 80%; /* Adjust the width as needed */
+            max-width: 1900px;
+            padding: 20px;
+            border-radius: 20px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            border: 1px solid #ddd; /* Light gray border */
+        }
+        ol {
+            margin-left: 200px;
+            color: #555;
+            font-family: Garamond,serif;
+            font-size: 18px;
+        }
+        ul {
+            margin-left: 200px;
+            color: #555;
+            font-family: Garamond,serif;
+            font-size: 18px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 0px;
+            margin-left: 300px;
+        }
+        /*
+        /* Animated underline 
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, blue, transparent);
+            background-size: 300% 100%;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        /* Hover effect 
+        nav a:hover {
+            color: dodgerblue; /* Keep text white on hover 
+        }
+
+            nav a:hover::after {
+                opacity: 1; /* Make underline visible 
+                animation: shimmer 2s linear infinite; /* Start shimmering animation 
+            }
+
+        /* Shimmer animation 
+        @keyframes shimmer {
+            0% {
+                background-position: 200% 0;
+            }
+
+            100% {
+                background-position: -200% 0;
+            }
+        }*/
+        .link-113 {
+            color: black;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 20px 45px;
+            margin: 0 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .link-113::before,
+            .link-113::after {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background: blue;
+                transition: all 0.5s;
+            }
+
+            .link-113::before {
+                top: 0;
+                left: 0;
+            }
+
+            .link-113::after {
+                bottom: 0;
+                right: 0;
+            }
+
+            .link-113:hover::before {
+                width: 100%;
+                transition: width 0.25s ease-in-out;
+            }
+
+            .link-113:hover::after {
+                width: 100%;
+                transition: width 0.25s ease-in-out 0.25s;
+            }
+        table, th, td {
+
+            border: dodgerblue solid 2px;
+            border-collapse: collapse;
+            text-indent: 50px;
+            margin-left: 25px;
+            padding-right: 40px;
+            padding-left:0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+
+
+
+
+        <div>
+            <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\PC.png" alt="Logo" class="logo">
+            <a href="mailto:UwUroloUwU@gmail.com" class="link-113"> Contact Us</a>
+            <a href="#About" class="link-113">About</a>
+            <a href="P_1.html" class="link-113"> Home</a>
+
+
+
+        </div>
+
+    </nav>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <ol class="sheet" style="list-style-position: inside; text-indent: 300px; text-align: left;">
+
+        <ul style="list-style-position:  inside; text-indent: 70px; text-align:left;">
+            <h2 style="text-indent: 250px;"> How to Create a Windows USB Installion Media.</h2>
+            <br />
+            <br />
+            <li><a href="#R_1" style="text-decoration:none;">Create Windows USB Installation Media</a></li>
+            <li><a href="#R_2" style="text-decoration:none;">Install Windows 11</a></li>
+            <li><a href="#R_3" style="text-decoration:none;">Install Windows 10</a></li>
+            <li><a href="#diff" style="text-decoration:none;">Difference between Windows 10 & Windwos 11</a></li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <h2 id="R_1" style="text-indent: 550px;">Create Windows USB Installation Media</h2>
+        <br />
+        <br />
+        <br />
+        <li>Go to <a href="https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d" style="text-decoration:none;">"Create installation media for Windows," </a> Choose either Windows 10 or Windows 11 based on your needs, <br /><p style="text-indent: 300px;">and enter the official download page. Click "Download now."</p></li>
+        <br />
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11.png" alt="Windows11" />
+        <br />
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>
+            Go to the folder where the downloaded file is located on your computer, and run the MediaCreationTool.
+            <br /><p style="text-indent: 300px;"> (If the system prompts a User Account Control window, select "Yes.") </.p>
+        </li>
+        <br />
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\nb2.png" alt="nb2" />
+        <br />
+        <br />
+
+
+        <li>Read the application notices and license terms carefully, then click "Accept."</li>
+        <br />
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\Agreement.png" alt="Agreement" />
+        <br />
+        <br />
+
+        <li>Choose the system language and version, then click "Next."</li>
+        <br />
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\Select.png" alt="nb2" />
+        <br />
+        <br />
+
+        <li>Select "USB flash drive" and click "Next."</li>
+        <br />
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\USB.png" alt="nb2" />
+        <br />
+        <br />
+
+        <li>
+            On the ‘Select a USB flash drive’ page, choose the USB flash drive you want to use, then click "Next."
+            <br /> <p style="text-indent: 300px;">The system will start downloading and creating the Windows installation media. </p>
+        </li>
+        <br />
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\USB_2.png" alt="nb2" />
+        <br />
+        <br />
+
+        <li> When the tool prompts "Your USB flash drive is ready," click "Finish."</li>
+        <br />
+        <br />
+
+    </ol>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--INSTALL WINDOWS 11-->
+    <ol class="sheet" style="list-style-position: inside; text-indent: 300px; text-align: left;">
+        <br />
+        <br />
+        <h2 id="R_2" style=" text-indent: 650px;">Install Windows 11</h2>
+        <br />
+        <br />
+        <li>Connect the prepared USB installation media to your computer.</li>
+        <br />
+        <li>Restart the computer and choose to boot from the USB flash drive.</li>
+        <br />
+        <li>Select your language, time and currency format, keyboard, or input method, then click "Next."</li>
+        <br />
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_1.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Click "Install now."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_2.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>If your computer came with an operating system, choose "I don't have a product key." The computer will automatically activate <br /> <p style="text-indent: 300px;">Windows when the installation is complete and connected to the Internet. </p></li>
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_3.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Choose the operating system version and click "Next."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_4.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>After reading the Microsoft Software License Terms, check "I accept Microsoft Software License Terms" and click "Next."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_5.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Choose "Custom: Install Windows only (advanced)."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_6.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>This step involves selecting the disk on which Windows will be installed. The screen will list all the disks and their partitions <br /> <p style="text-indent: 300px;">on your computer. </p></li>
+        <p style="text-indent: 300px;">If your computer displays multiple disks, delete all partitions on the disk where you want to install Windows. <br />
+        <p style="text-indent: 300px;">Click on each partition and click "Delete" in sequence.</p.></p>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_7.png" alt="Windows11" />
+        <br />
+        <p style="text-indent: 300px;"> After deleting all disk partitions, select the "unallocated space" and click "Next." </p>
+        <br />
+
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_8.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>After installation completed, the computer will restart and undergo basic Windows setup. Follow the on-screen prompts to complete the setup.</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_9.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Once setup is complete, the desktop will be shown, and the system installation is finished.</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W11_10.png" alt="Windows11" />
+        <br />
+        <br />
+        <br />
+
+    </ol>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--INSTALLI WINDOWS 10-->
+    <ol class="sheet" style="list-style-position: inside; text-indent: 300px; text-align:left;">
+        <br />
+        <br />
+        <h2 id="R_3" style=" text-indent: 650px;">Install Windows 10</h2>
+        <br />
+        <br />
+        <li>Connect the prepared USB installation media to your computer.</li>
+        <br />
+        <br />
+        <li>Restart the computer and choose to boot from the USB flash drive.</li>
+        <br />
+        <br />
+        <li>Select your language, time and currency format, keyboard, or input method, then click "Next."</li>
+        <br />
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_1.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Click "Install now."</li>
+        <br />
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_2.png" alt="Windows11" />
+        <br />
+        <br />
+        <li> If your computer came with an operating system, choose "I don't have a product key." The computer will automatically activate <br /> <p style="text-indent: 300px;">Windows when the installation is complete and connected to the Internet. </p></li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_3.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Choose the operating system version and click "Next."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_4.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>After reading the Microsoft Software License Terms, check "I accept Microsoft Software License Terms" and click "Next."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_5.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Choose "Custom: Install Windows only (advanced)."</li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_6.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>
+            This step involves selecting the disk on which Windows will be installed. The screen will list all the disks and their partitions <br /><p style="text-indent: 300px;">
+                on your computer.
+
+                If your computer displays multiple disks, delete all partitions on the disk where you want to install Windows.
+            </p> <p style=" text-indent: 300px;">Click on each partition and click "Delete" in sequence.</p>
+        </li>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_7.png" alt="Windows11" />
+        <br />
+        <p style=" text-indent: 300px;">After deleting all disk partitions, select the "unallocated space" and click "Next."</p>
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_8.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>After installation is complete, the computer will restart and undergo basic Windows setup. Follow the on-screen prompts to complete the setup.</li>
+        <br />
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_9.png" alt="Windows11" />
+        <br />
+        <br />
+        <li>Once setup is complete, the desktop will be shown, and the system installation is finished.</li>
+        <br />
+        <br />
+        <img src="D:\Uni 2024\HTML\PROJECT\CSS\PIC\W10_10.png" alt="Windows11" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <table>
+
+            <p id="diff" style="text-indent:500px; font-size:30px; font-family: Garamond;">Differences between Windows 10 & Windows 11</p>
+            <br />
+            <br />
+            <tr>
+                <th>Parameters</th>
+                <th>Windows 10</th>
+                <th>Windows 11</th>
+            </tr>
+            <tr>
+                <th>Released On</th>
+                <th>July 15, 2015</th>
+                <th>June 24, 2021</th>
+            </tr>
+            <tr>
+                <th>Functionality</th>
+                <th>Based on Andriod Functionality</th>
+                <th>Based on Mac Functionality</th>
+            </tr>
+            <tr>
+                <th>TPM</th>
+                <th>Runs on devices with TPM 1.2 or above</th>
+                <th>Runs on devices with TPM 2.0</th>
+            </tr>
+            <tr>
+                <th>RAM & Storage</th>
+                <th>Runs on devices with a min 2 GB RAM & 32 GB Storage</th>
+                <th>Runs on devices with a min 4 GB RAM & 64 GB Storage</th>
+            </tr>
+            <tr>
+                <th>Start Menu</th>
+                <th>The start menu is located at the left of the screen.</th>
+                <th>The start menu is located at the center of the screen and can be adjusted.</th>
+            </tr>
+            <tr>
+                <th>Microsoft Support</th>
+                <th>Microsoft will end the support for Windows 10 in 2025</th>
+                <th>Microsoft will continue the support for Windows 11 till the next version is launched.</th>
+            </tr>
+
+        </table>
+    <br />
+    <br />
+    </ol>
+    
+    <hr />
+    
+</body>
+</html>
